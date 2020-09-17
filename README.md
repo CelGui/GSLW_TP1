@@ -10,6 +10,7 @@ This paragraph has some `inline codes`.
    - Edit the User and the ExecStart to your own username and path.
   
   
+  ```
   [unit]
   Description=
   After=
@@ -24,7 +25,7 @@ This paragraph has some `inline codes`.
   
   [Install]
   Wantedby:multi-user.target
-  
+  ```
   - save and exit the nano.
   
   ### Enter these command to execute the service
