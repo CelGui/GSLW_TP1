@@ -31,7 +31,7 @@ This paragraph has some `inline codes`.
    - systemctl enable daemon
    - systemctl status daemon.service
    
-  - To stop and delete the service:
+  #### To stop and delete the service:
     - systemctl stop daemon.service
     - sudo systemctl disable daemon.service
     - sudo rm daemon.service
