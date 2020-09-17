@@ -9,8 +9,7 @@ This paragraph has some `inline codes`.
  - Write the following codes in the daemon.service
    - Edit the User and the ExecStart to your own username and path.
   
-####
-  [unit]
+####[unit]
   Description=
   After=
   StartLimitIntervalSec=0
@@ -23,8 +22,7 @@ This paragraph has some `inline codes`.
   ExecStart=/home/celgui/Documents/check.sh
   
   [Install]
-  Wantedby:multi-user.target
-  ####
+  Wantedby:multi-user.target####
   
   - save and exit the nano.
   
