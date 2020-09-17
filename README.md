@@ -12,8 +12,8 @@ This paragraph has some `inline codes`.
   
   ```
   [unit]
-  Description=
-  After=
+  Description=List of colleages
+  After=network.target
   StartLimitIntervalSec=0
   
   [service]
